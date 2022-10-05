@@ -6,7 +6,7 @@ from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
 
 
-app = Dash(__name__, title='Dash File Explorer', external_stylesheets=[dbc.themes.CYBORG])
+app = Dash(__name__, title='Dash File Browser', external_stylesheets=[dbc.themes.CYBORG])
 server = app.server
 
 app.layout = html.Div([
